@@ -1,0 +1,21 @@
+{
+  "name": "taro-resolve",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gitbook serve --port=8080 --watch --open",
+    "build": "gitbook build . docs"
+  },
+  "keywords": [
+    "cyber",
+    "document",
+    "shicheng.yu"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gitbook-cli": "^2.3.2",
+    "gitbook-plugin-new-flowchart": "^0.1.1"
+  }
+}
